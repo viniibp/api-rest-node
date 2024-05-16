@@ -10,7 +10,7 @@ The dev database is sqlite!
 Install dependencies
 
 ~~~bash  
-  pnpm install
+rpnpm install
 ~~~
 
 Start the `dev` server:
