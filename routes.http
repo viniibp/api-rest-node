@@ -7,3 +7,20 @@ GET http://localhost:3333/transactions
 ###
 
 POST http://localhost:3333/transactions
+Content-Type: application/json
+
+{
+    "title": "Transaction test 02",
+    "amount": 1050,
+    "type": "credit"
+}
+###
+
+POST http://localhost:3333/transactions
+Content-Type: application/json
+
+{
+    "title": "Transaction test 02",
+    "amount": 1050,
+    "type": "credit"
+}
