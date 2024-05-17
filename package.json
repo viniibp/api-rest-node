@@ -3,7 +3,7 @@
   "module": "server.ts",
   "type": "module",
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "scripts": {
     "dev": "npx tsx --watch src/server.ts",
