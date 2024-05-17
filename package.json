@@ -4,12 +4,16 @@
   "type": "module",
   "scripts": {
     "dev": "npx tsx --watch src/server.ts",
-    "knex": "node --no-warnings --import tsx ./node_modules/knex/bin/cli.js"
+    "knex": "node --no-warnings --import tsx ./node_modules/knex/bin/cli.js",
+    "test": "vitest"
   },
   "devDependencies": {
     "@types/node": "^20.12.12",
+    "@types/supertest": "^6.0.2",
+    "supertest": "^7.0.0",
     "tsx": "^4.10.3",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "vitest": "^1.6.0"
   },
   "dependencies": {
     "@fastify/cookie": "^9.3.1",
