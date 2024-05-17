@@ -1,4 +1,3 @@
-
 # Backend with Knex and Fastify! 
 
 ## Tech Stack  
@@ -10,7 +9,7 @@ The dev database is sqlite!
 Install dependencies
 
 ~~~bash  
-rpnpm install
+pnpm install
 ~~~
 
 Start the `dev` server:

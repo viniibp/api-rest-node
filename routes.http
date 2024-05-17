@@ -1,1 +1,20 @@
-GET http://localhost:3333/hello
+GET http://localhost:3333/transactions
+
+### GET SUMMARY
+
+GET http://localhost:3333/transactions/summary
+
+### GET BY ID
+
+GET http://localhost:3333/transactions/dc545bfc-23b1-4f6f-b9ba-097053a6600b
+
+### CREATE TRANSACTION
+
+POST http://localhost:3333/transactions
+Content-Type: application/json
+
+{
+    "title": "Transaction test 02",
+    "amount": 1050,
+    "type": "credit"
+}
